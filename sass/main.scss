@@ -261,7 +261,7 @@ a:hover {
   border-style: none;
   border-radius: 5px;
 }
-.section4 {
+.section4, .section7 {
   background-image: url("../img/bcg_img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -339,6 +339,10 @@ a:hover {
   span {
     color: #9f449b;
     }
+  p {
+    font-size: 12px;
+  }
+  padding-bottom: 150px;
 }
 
 .progress_bar1 {
@@ -373,6 +377,33 @@ a:hover {
   align-items: center;
   align-content: stretch;
 }
+.flex-item6 {
+  padding: 0 15px 0 15px;
+}
+.progress_bar12 {
+  span {
+    color: black;
+    margin-right: 100px;
+  }
+}
+.progress_bar21 {
+  span {
+    color: black;
+    margin-right: 110px;
+  }
+}
+.progress_bar34 {
+  span {
+    color: black;
+    margin-right: 75px;
+  }
+}
+.progress_bar43 {
+  span {
+    color: black;
+    margin-right: 140px;
+  }
+}
 .progress_bar3 {
   height: 10px;
   width: 165px;
@@ -396,4 +427,73 @@ a:hover {
   width: 15px;
   background: #f0f0f0;
   display: inline-block;
+}
+.section8 {
+  max-width: 100vw;
+  background-color: #eeeeee;
+  background-size: cover;
+  min-height: 80vh;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.flex-container8 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: stretch;
+  text-align: center;
+  font-size: 38px;
+  p {
+    font-size: 12px;
+  }
+  .flex-item8 {
+  padding: 0 50px 0 50px;
+  }
+  padding-bottom: 100px;
+}
+.grey_circle {
+  width: 115px;
+  height: 115px;
+  background: #aaaaaa;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50%;
+  margin: 50px;
+  margin: 0 auto;
+}
+.section8-text {
+  width: 600px;
+  height: 300px;
+  margin: 0 auto;
+  color: #717171;
+  p {
+    font-size: 20px;
+    color: #717171;
+  }
+}
+.section9 {
+  min-height: 80vh;
+  text-align: center;
+  h1 {
+    font-size: 30px;
+    padding: 50px;
+  }
+  span {
+    color: #9f449b;
+    }
+}
+.gallery_btn {
+  width: 55px;
+  height: 25px;
+  background-color: white;
+  margin: 5px;
+  border-width: 1px;
+  border-radius: 5px;
+}
+.gallery_btn:hover {
+  background-color: #9f449b;
+  color: white;
 }
