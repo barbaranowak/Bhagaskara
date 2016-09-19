@@ -474,7 +474,7 @@ a:hover {
     color: #717171;
   }
 }
-.section9 {
+.section9, .section10 {
   min-height: 80vh;
   text-align: center;
   h1 {
@@ -492,8 +492,82 @@ a:hover {
   margin: 5px;
   border-width: 1px;
   border-radius: 5px;
+  margin-bottom: 40px;
 }
-.gallery_btn:hover {
+.gallery_btn:hover, .watch_more:hover, .send_email:hover {
   background-color: #9f449b;
   color: white;
+}
+.flex-container9, .flex-container10 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: stretch;
+  text-align: center;
+}
+.flex-item9 {
+  margin: 10px;
+  h3 {
+    margin-bottom: 4px;
+  }
+  p {
+    margin: 2px;
+  }
+}
+#gal1:hover, #gal2:hover, #gal3:hover, #gal4:hover, #gal5:hover, #gal6:hover {
+  opacity: 0.5;
+}
+.watch_more, .send_email, {
+  width: 110px;
+  height: 35px;
+  background-color: white;
+  margin: 5px;
+  border-width: 1px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+.input_name, .input_email {
+  height: 50px;
+  width: 400px;
+  border: 1px solid #9f449b;
+  padding-left: 20px;
+  margin: 10px;
+}
+.input_message {
+  width: 400px;
+  height: 200px;
+  border: 1px solid #9f449b;
+  padding-left: 20px;
+  margin: 10px;
+}
+.git_div {
+  width: 300px;
+  text-align: left;
+  margin-left: 30px;
+  p {
+    margin: 10px 0 40px 0;
+  }
+}
+.f_t_g {
+  width: 45px;
+  height: 45px;
+  background: white;
+  border: 2px solid #cdcdcd;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 30px 10px 10px 10px;
+}
+footer {
+  min-height: 30vh;
+  text-align: center;
+  h1 {
+    font-size: 30px;
+    padding: 50px;
+  }
+  span {
+    color: #9f449b;
+    }
 }
